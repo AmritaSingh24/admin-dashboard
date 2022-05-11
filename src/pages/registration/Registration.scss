@@ -1,0 +1,25 @@
+.register{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card{
+        box-shadow: 0px 0px 15px 3px rgba(201, 201, 201, 0.47);
+
+        .heading{
+            color: gray;
+            margin: 10px 0;
+        }
+
+        .btn{
+            background-color: teal;
+            margin: 20px 0 10px 0;
+            border-radius: 0%;
+        }
+
+        .text{
+            font-size: 14px;
+        }
+    }
+}

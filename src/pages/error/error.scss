@@ -1,0 +1,35 @@
+.error{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #d7cff7;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+
+    .container_fluid{
+        text-align: center;
+
+        h1{
+            font-size: 18vh;
+            color: #fff;
+            line-height: 1em;
+        }
+
+        p{
+            font-size: 2rem;
+            color: gray;
+        }
+        .btn{
+            border-radius: 0%;
+            margin-top: 15px;
+            background-color: teal;
+        }
+
+    }
+}
+

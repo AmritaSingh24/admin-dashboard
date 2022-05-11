@@ -1,0 +1,63 @@
+.dark {
+  background-color: #111;
+  color: #9c9c9c;
+}
+
+.dark .chartGrid {
+  stroke: rgba(228, 228, 228, 0.219);
+}
+
+.dark .table {
+  background-color: #111;
+}
+
+.dark .table .tableCell {
+  color: gray;
+}
+
+.dark .navbar {
+  color: #999;
+  border-color: #333;
+}
+
+.dark .navbar .search {
+  border-color: gray;
+}
+
+.dark .sidebar {
+  background-color: #111;
+  border-color: #333;
+}
+
+.dark .sidebar .top .logo {
+  color: #999;
+}
+
+.dark .sidebar hr {
+  border-color: #333;
+}
+
+.dark .sidebar ul li:hover {
+  background-color: #333;
+}
+
+.dark .sidebar ul li .icon {
+  color: #999;
+}
+
+.dark .datatable .datagrid {
+  color: gray;
+  border: none;
+}
+
+.dark .datatable .datagrid .viewButton,
+.dark .datatable .datagrid .deleteButton,
+.dark .datatable .datagrid .cellWithStatus {
+  color: gray;
+  border: none;
+}
+
+.dark input {
+  background-color: transparent;
+}
+/*# sourceMappingURL=dark.css.map */

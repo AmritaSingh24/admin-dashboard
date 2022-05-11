@@ -1,0 +1,42 @@
+.error {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background-color: #d7cff7;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.error .container_fluid {
+  text-align: center;
+}
+
+.error .container_fluid h1 {
+  font-size: 18vh;
+  color: #fff;
+  line-height: 1em;
+}
+
+.error .container_fluid p {
+  font-size: 2rem;
+  color: gray;
+}
+
+.error .container_fluid .btn {
+  border-radius: 0%;
+  margin-top: 15px;
+  background-color: teal;
+}
+/*# sourceMappingURL=error.css.map */

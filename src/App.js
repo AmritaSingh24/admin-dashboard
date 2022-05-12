@@ -13,7 +13,7 @@ import { DarkModeContext } from "./context/darkModeContext";
 import Error from "./pages/error/Error";
 import Registration from "./pages/registration/Registration";
 import { AuthProvider } from "./auth/auth";
-import RequireAuth from "./auth/RequireAuth";
+import  {RequireAuth, LoginAuth } from "./auth/RequireAuth";
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
@@ -28,11 +28,11 @@ function App() {
                 index
                 element={
                   <RequireAuth>
-                    <Home />
+                      <Home />
                   </RequireAuth>
                 }
               />
-              <Route path="login" element={<Login />} />
+              <Route path="login" element={<LoginAuth><Login /></LoginAuth> } />
               <Route path="register" element={<Registration />} />
               <Route path="users">
                 <Route

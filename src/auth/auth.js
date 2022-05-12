@@ -7,10 +7,13 @@ export const AuthProvider = ({ children }) => {
 
   const login = (user) => {
     setUser(user);
+    if(user.length){
+      localStorage.setItem("token", "dashboard");
+    }
   };
 
   const logout = () => {
-    setUser(null);
+    localStorage.removeItem("token")
   };
 
   return (

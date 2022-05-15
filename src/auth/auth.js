@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (user) => {
     setUser(user);
-    if(user.length){
+    if(Object.keys(user).length){
       localStorage.setItem("token", "dashboard");
     }
   };
